@@ -1,0 +1,149 @@
+* {
+    margin:0;
+    padding:0;
+}
+html, body {
+    height:100%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 160%;
+    position: relative;
+    backgound: #00335b;
+}
+
+.bd-navbar {
+	background-color: #00335b;
+}
+
+li.nav-item.nav-item-top > a {
+    font-size: 18px;
+    text-align: center;
+    color:white;
+}
+
+li.nav-item.nav-item-top > a:hover {
+    font-size:19px;
+    border-bottom:2px solid  #c6007e;
+}
+
+a.button-contact {
+ font-size: 18px;
+ text-align: center;   
+}
+
+.mb-15 {
+ margin-bottom: 15px;
+ margin-top:15px;   
+}
+
+.mt-40 {
+ margin-top:40px;  
+ padding-top:25px; 
+}
+
+.site-logo{
+	width: 14.6em;
+    overflow: hidden;
+    padding-top: 56px;
+    text-indent: -70px;
+}
+.site-logo.site-logo--header {
+	background-image: url("/images/anglicare-logo.svg");
+}
+
+.nav-link {
+    display: block;
+    padding: 2rem 3rem;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    margin-left: .1em;
+    font-size: 7em;
+}
+
+.angli-care-header {
+ border-bottom: 2px solid #8ba6c1;   
+}
+
+.content-border {
+ border-bottom: 2px solid #8ba6c1;   
+}
+
+.anglicare-menu, .about_us_content, .user-content{
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.item-list-image-wrapper {
+    height: 220px;
+    display: block;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+}
+
+li.menu-item {
+    list-style: none;
+    display:inline;
+    padding: 23px;
+    text-align:center;
+}
+
+li.menu-item > a {
+    font-size: 18px;
+    color:white;
+}
+
+.breadcrumb-item{
+ font-size: 18px;   
+}
+
+.space-between { 
+  justify-content: space-between; 
+} 
+
+#contents {
+  display: flex;                 
+  flex-direction: row;            
+  flex-wrap: nowrap;              
+  justify-content: space-between;
+}
+
+#contents > div {
+  width: 350px;
+  height: 350px;
+  border: 1px solid #8ba6c1;
+  border-bottom-right-radius: 50px !important;
+  border-top-left-radius: 50px !important;
+}
+.card-img-top{
+ border-top-left-radius: 50px !important;   
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+    padding: 27px;
+}
+
+a#back2top {
+    color: white;
+}
+
+.carousel-item {
+   background: rgba(0, 0, 0);
+}
+
+.carousel-caption h3 {
+  color: #000 !important;
+}
+
+.carousel-caption p {
+  color: #000 !important;
+}
+
+blockquote {
+  background-color: rgba(238,238,238,0.1);
+  border-left: 4px solid #3d7e9a;
+}
+
+
